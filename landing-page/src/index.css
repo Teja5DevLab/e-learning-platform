@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  img {
+    @apply w-full;
+  }
+  .section {
+    @apply container mx-auto px-2 py-[5.5rem];
+  }
+}
+
+@keyframes slidedown {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideright {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(0.3);
+    opacity: 0.1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.slidedown {
+  animation: slidedown 1s ease-in-out;
+}
+
+.fadein {
+  animation: fadein 1s ease-in;
+}
+
+.slideright {
+  animation: slideright 1s ease-in-out;
+}
+
+.popup {
+  animation: popup 1s ease-in-out;
+}
