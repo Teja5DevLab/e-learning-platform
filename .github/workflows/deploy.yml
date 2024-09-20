@@ -18,16 +18,20 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: |
+          cd landing-page  # Navigate to the landing-page directory
+          npm install
 
       - name: Build project
-        run: npm run build
+        run: |
+          cd landing-page  # Navigate to the landing-page directory
+          npm run build
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
         with:
           name: production-files
-          path: ./dist
+          path: ./landing-page/dist  # Update the path to the dist folder inside landing-page
 
   deploy:
     name: Deploy
@@ -40,10 +44,10 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: production-files
-          path: ./dist
+          path: ./landing-page/dist  # Ensure correct path to the dist folder
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./landing-page/dist  # Ensure correct path to the dist folder
