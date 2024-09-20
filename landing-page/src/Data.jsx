@@ -67,7 +67,7 @@ export const categories = [
     icon: <FaLaptopCode />,
     category: "Development",
     description:
-      "Explore development with our courses on programming fundamentals, software engineering, and modern technologies. Learn to build and maintain it.",
+      "Explore development with courses on programming fundamentals, software engineering, and modern technologies. Learn to build and maintain it.",
   },
 
   {
