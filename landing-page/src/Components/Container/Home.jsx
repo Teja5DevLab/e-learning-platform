@@ -64,7 +64,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <p className="fadein text-center text-xl">
+        <p className="fadein text-center md:mt-0 mt-3 text-xl">
           We collaborated with{" "}
           <span className="text-Teal" id="typed-text-2"></span>
         </p>
@@ -74,15 +74,21 @@ const Home = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 1 }}
         >
-          <Marquee speed={70}>
-            <div className="flex justify-center items-center gap-8 p-2 flex-wrap mt-6">
-              {logos.map((logo, index) => (
-                <div className="w-36 md:w-32 mt-6" key={index}>
-                  <img src={logo} alt="logo" className="w-full object-cover" />
-                </div>
-              ))}
-            </div>
-          </Marquee>
+          <div className="translate-y-8">
+            <Marquee speed={70}>
+              <div className="flex justify-center items-center gap-8 p-2 flex-wrap mt-6">
+                {logos.map((logo, index) => (
+                  <div className="w-36 md:w-32" key={index}>
+                    <img
+                      src={logo}
+                      alt="logo"
+                      className="w-full object-cover"
+                    />
+                  </div>
+                ))}
+              </div>
+            </Marquee>
+          </div>
         </motion.div>
       </div>
     </div>
