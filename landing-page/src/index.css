@@ -13,6 +13,10 @@
   }
 }
 
+.carousel-item {
+  margin-right: 15px;
+}
+
 @keyframes slidedown {
   0% {
     transform: translateY(-100px);

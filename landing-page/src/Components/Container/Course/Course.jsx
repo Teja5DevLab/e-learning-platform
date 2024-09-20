@@ -5,7 +5,7 @@ const Course = ({ image, title, category, rating, participants, price }) => {
     <div className="p-2 min-w-[15rem] bg-white rounded-md">
       <img src={image} alt="Courses" />
       <div className="mt-2 text-Teal text-sm">{category}</div>
-      <div className="text-sm font-bold mt-2">{title}</div>
+      <div className="text-sm font-bold my-2">{title}</div>
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="bg-Solitude p-1 rounded-full">

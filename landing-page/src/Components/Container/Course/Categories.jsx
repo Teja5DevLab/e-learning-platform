@@ -39,7 +39,7 @@ const Categories = ({
       <div className="absolute h-full bottom-0 p-4 bg-white shadow-lg rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-200">
         <p className="text-sm text-Gray">{description}</p>
         <p
-          className="text-sm cursor-pointer mt-2 text-Teal"
+          className="text-sm cursor-pointer w-fit mt-2 text-Teal"
           onClick={scrollToCourses}
         >
           Go to Courses

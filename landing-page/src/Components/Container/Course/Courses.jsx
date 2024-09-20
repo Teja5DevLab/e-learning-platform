@@ -42,7 +42,8 @@ const Courses = () => {
           Our platform offers a wide range of courses across various categories,
           including Technology & Software, Business & Management, Creative Arts
           & Design, Personal Development, Health & Wellness, Language Learning,
-          Science & Mathematics, Marketing & Sales, and Test Prep & Certification.
+          Science & Mathematics, Marketing & Sales, and Test Prep &
+          Certification.
         </p>
       </div>
       <div className="grid md:grid-cols-4 sm:grid-cols-2 mt-12 gap-8">
@@ -56,8 +57,8 @@ const Courses = () => {
         ))}
       </div>
       <h2 ref={carouselRef} className="mt-24 font-bold text-center text-2xl">
-          Most Popular <span className="text-Teal">Courses</span>{" "}
-        </h2>
+        Most Popular <span className="text-Teal">Courses</span>{" "}
+      </h2>
       <div className="mt-12">
         <Carousel
           className="cursor-pointer"
@@ -69,7 +70,7 @@ const Courses = () => {
           autoPlay={true}
           autoPlaySpeed={2500}
           containerClass="carousel-container"
-          itemClass="px-3"
+          itemClass="carousel-item"
           renderButtonGroupOutside={true}
         >
           {courses.map((course) => (
