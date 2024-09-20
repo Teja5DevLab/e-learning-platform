@@ -2,14 +2,8 @@ import hero from "../../assets/hero.webp";
 import { useEffect } from "react";
 import Typed from "typed.js";
 import { Button } from "@nextui-org/button";
-import { motion } from "framer-motion";
 import { logos } from "../../Data";
 import Marquee from "react-fast-marquee";
-
-const fadeInUp = {
-  hidden: { opacity: 0, y: 80 },
-  visible: { opacity: 1, y: 0, transition: { duration: 1 } },
-};
 
 const Home = () => {
   useEffect(() => {
