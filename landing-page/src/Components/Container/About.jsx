@@ -39,7 +39,7 @@ const About = () => {
           variants={fadeInLeft}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.4 }}
+          viewport={{ once: true, amount: 1 }}
           className="border-[3px] border-Teal rounded-lg overflow-hidden"
         >
           <img
