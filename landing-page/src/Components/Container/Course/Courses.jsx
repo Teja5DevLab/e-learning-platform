@@ -46,7 +46,7 @@ const Courses = () => {
           Certification.
         </p>
       </div>
-      <div className="grid md:grid-cols-4 sm:grid-cols-2 mt-12 gap-8">
+      <div className="grid md:grid-cols-4 mr-5 sm:grid-cols-2 mt-12 gap-8">
         {categories.map((category, index) => (
           <Categories
             key={category.id}
