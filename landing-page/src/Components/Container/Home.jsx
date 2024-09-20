@@ -77,7 +77,7 @@ const Home = () => {
           <Marquee speed={70}>
             <div className="flex justify-center items-center gap-8 p-2 flex-wrap mt-6">
               {logos.map((logo, index) => (
-                <div className="w-28" key={index}>
+                <div className="w-36 md:w-32 mt-6" key={index}>
                   <img src={logo} alt="logo" className="w-full object-cover" />
                 </div>
               ))}
