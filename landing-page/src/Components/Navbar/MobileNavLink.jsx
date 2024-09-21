@@ -10,7 +10,7 @@ const MobileNavLink = ({ setToggle, href, link, icon }) => {
         duration={500}
         offset={-50}
         onClick={() => setToggle(false)}
-        className="flex items-center gap-3 text-2xl mb-10 translate-y-7 text-white cursor-pointer"
+        className="flex items-center gap-3 text-2xl mb-10 text-white cursor-pointer"
       >
         {icon}
         {link}

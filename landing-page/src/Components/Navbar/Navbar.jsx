@@ -60,7 +60,7 @@ const Navbar = () => {
 
           {/* Mobile Navigation Menu */}
           <div
-            className={`fixed h-full w-64 top-0 left-0 z-30 bg-Teal text-white p-8 shadow-lg transition-all duration-300 transform ${
+            className={`fixed h-[100%] w-64 top-0 left-0 z-30 bg-Teal text-white px-10 shadow-lg transition-all duration-300 transform ${
               toggle ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
             }`}
           >
@@ -68,7 +68,7 @@ const Navbar = () => {
               className="absolute right-6 top-6 cursor-pointer text-3xl"
               onClick={() => setToggle(false)}
             />
-            <ul className="mt-16">
+            <ul className="mt-28">
               {navLinks.map((navLink) => (
                 <MobileNavLink
                   key={navLink.id}
