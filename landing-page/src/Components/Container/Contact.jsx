@@ -46,9 +46,7 @@ const Contact = () => {
           <p className="text-lg font-bold text-gray-700 mb-4">
             +1 657 829 5060
           </p>
-          <p className="text-Teal cursor-pointer">
-            View all global numbers
-          </p>
+          <p className="text-Teal cursor-pointer">View all global numbers</p>
         </motion.div>
         <motion.div
           initial="hidden"
@@ -72,9 +70,7 @@ const Contact = () => {
           <Button className="bg-Teal text-white font-bold px-7 py-5 mb-4 rounded-lg text-sm">
             Contact Support
           </Button>
-          <p className="text-Teal cursor-pointer">
-            View our Employees
-          </p>
+          <p className="text-Teal cursor-pointer">View our Employees</p>
         </motion.div>
       </div>
     </div>

@@ -28,35 +28,35 @@ export const navLinks = [
     id: 1,
     href: "home",
     link: "Home",
-    icon : <IoHomeSharp/>,
+    icon: <IoHomeSharp />,
   },
 
   {
     id: 2,
     href: "about",
     link: "About",
-    icon : <FaInfoCircle/>,
+    icon: <FaInfoCircle />,
   },
 
   {
     id: 3,
     href: "courses",
     link: "Courses",
-    icon : <FaBookOpen/>,
+    icon: <FaBookOpen />,
   },
 
   {
     id: 4,
     href: "teacher",
     link: "Teacher",
-    icon : <GoPersonFill/>,
+    icon: <GoPersonFill />,
   },
 
   {
     id: 5,
     href: "contact",
     link: "Contact",
-    icon : <BsFillTelephoneFill/>,
+    icon: <BsFillTelephoneFill />,
   },
 ];
 
@@ -219,4 +219,3 @@ export const accordions = [
       "You can access courses anytime, anywhere with an internet connection. Our platform is available on both desktop and mobile devices for flexible learning.",
   },
 ];
-

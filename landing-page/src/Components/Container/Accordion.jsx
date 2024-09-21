@@ -17,9 +17,7 @@ const AccordionComponent = ({ title, content, index }) => {
   return (
     <motion.div custom={index} variants={fadeInUp}>
       <Accordion>
-        <AccordionItem title={title}>
-          {content}
-        </AccordionItem>
+        <AccordionItem title={title}>{content}</AccordionItem>
       </Accordion>
     </motion.div>
   );

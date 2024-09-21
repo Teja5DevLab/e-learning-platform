@@ -25,10 +25,10 @@ const Footer = () => {
           <div className="font-bold mb-6">Get Started</div>
           <p className="text-sm leading-7">
             <p className="text-sm leading-7">
-              Take your online presence to the next level? Our team of
-              experts is here to help you with solutions for web
-              design, digital marketing, and development. Let’s build something
-              amazing together!
+              Take your online presence to the next level? Our team of experts
+              is here to help you with solutions for web design, digital
+              marketing, and development. Let’s build something amazing
+              together!
             </p>
           </p>
         </div>

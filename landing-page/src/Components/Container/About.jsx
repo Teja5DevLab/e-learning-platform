@@ -90,8 +90,7 @@ const About = () => {
           <ul className="text-Gray text-base leading-relaxed list-none space-y-4 pl-2">
             <li>
               <strong>Interactive Learning Material:</strong> Our courses are
-              designed to be interactive, with quizzes, exercises, and
-              projects.
+              designed to be interactive, with quizzes, exercises, and projects.
             </li>
             <li>
               <strong>Career Support:</strong> Receive guidance from career
