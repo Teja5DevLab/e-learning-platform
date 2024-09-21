@@ -1,7 +1,9 @@
 import { FiPenTool } from "react-icons/fi";
-import { FaLaptopCode } from "react-icons/fa";
-import { BsBarChartLine } from "react-icons/bs";
-import { MdDescription, MdOutlineScience } from "react-icons/md";
+import { FaLaptopCode, FaInfoCircle, FaBookOpen } from "react-icons/fa";
+import { BsBarChartLine, BsFillTelephoneFill } from "react-icons/bs";
+import { MdOutlineScience } from "react-icons/md";
+import { IoHomeSharp } from "react-icons/io5";
+import { GoPersonFill } from "react-icons/go";
 
 import courses1 from "./assets/courses1.webp";
 import courses2 from "./assets/courses2.webp";
@@ -26,30 +28,35 @@ export const navLinks = [
     id: 1,
     href: "home",
     link: "Home",
+    icon : <IoHomeSharp/>,
   },
 
   {
     id: 2,
     href: "about",
     link: "About",
+    icon : <FaInfoCircle/>,
   },
 
   {
     id: 3,
     href: "courses",
     link: "Courses",
+    icon : <FaBookOpen/>,
   },
 
   {
     id: 4,
     href: "teacher",
     link: "Teacher",
+    icon : <GoPersonFill/>,
   },
 
   {
     id: 5,
     href: "contact",
     link: "Contact",
+    icon : <BsFillTelephoneFill/>,
   },
 ];
 

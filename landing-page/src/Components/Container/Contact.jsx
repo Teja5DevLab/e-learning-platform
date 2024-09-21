@@ -31,7 +31,7 @@ const Contact = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeInLeft}
-          className="bg-white shadow-lg p-6 rounded-lg text-center"
+          className="bg-white shadow-lg p-6 mx-1 rounded-lg text-center"
         >
           <div className="flex justify-center mb-4">
             <span className="text-3xl text-Gray">
@@ -55,7 +55,7 @@ const Contact = () => {
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeInRight}
-          className="bg-white shadow-lg p-6 rounded-lg text-center"
+          className="bg-white shadow-lg p-6 mx-1 rounded-lg text-center"
         >
           <div className="flex justify-center mb-4">
             <span className="text-4xl text-Gray">
