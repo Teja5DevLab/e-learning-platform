@@ -4,7 +4,6 @@ import NavLink from "./NavLink";
 import MobileNavLink from "./MobileNavLink";
 import { useEffect, useState } from "react";
 import { Button } from "@nextui-org/button";
-import { FiUserPlus } from "react-icons/fi";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -41,24 +40,21 @@ const Navbar = () => {
               <a href="#home">Estelle Academy</a>
             </div>
           </div>
-          <div className="hidden sm:flex items-center gap-8">
+          <div className="hidden sm:flex items-center gap-2 md:gap-8">
             {navLinks.map((navLink) => (
               <NavLink key={navLink.id} {...navLink} />
             ))}
           </div>
-          <Button className="hidden sm:flex py-3 px-6 font-bold bg-Teal text-white border-Teal rounded-lg text-sm hover:bg-TealDark transition duration-300">
-            <FiUserPlus className="mr-2" />
+          <Button className="border-Gray border-[1.5px] font-bold px-7 mx-3 py-5 rounded-lg text-sm bg-transparent">
             Sign Up
           </Button>
           <div
-            className={`fixed h-[100%] w-64 top-0 left-0 z-30 bg-Teal text-white px-10 shadow-lg transition-transform duration-500 ease-in-out transform ${
-              toggle
-                ? "translate-x-0 opacity-100"
-                : "-translate-x-full opacity-0"
+            className={`fixed h-full w-64 top-0 left-0 z-50 bg-Teal text-white px-10 shadow-lg transform transition-all duration-500 ease-in-out ${
+              toggle ? "translate-x-0" : "-translate-x-full"
             }`}
           >
             <HiX
-              className="absolute right-6 top-6 cursor-pointer text-3xl hover:text-Red transition duration-300"
+              className="absolute right-6 top-6 cursor-pointer text-3xl hover:scale-110"
               onClick={() => setToggle(false)}
             />
             <ul className="mt-28">
@@ -70,7 +66,7 @@ const Navbar = () => {
                 />
               ))}
             </ul>
-            <div className="mt-8 border-t border-white/30 pt-4">
+            <div className="mt-8 border-t-[1.5px] border-white/50 pt-4">
               <p className="text-center text-sm text-white/80">
                 © Estelle Academy
               </p>
