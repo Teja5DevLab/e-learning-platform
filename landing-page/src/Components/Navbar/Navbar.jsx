@@ -33,10 +33,10 @@ const Navbar = () => {
         >
           <div className="flex items-center gap-4">
             <HiMenuAlt1
-              className="text-3xl sm:hidden cursor-pointer text-Teal"
+              className="slidedown text-3xl sm:hidden cursor-pointer text-Teal" style={{ animationDuration: ".8s" }}
               onClick={() => setToggle(true)}
             />
-            <div className="text-xl text-Teal uppercase tracking-wide font-bold">
+            <div className="slidedown text-xl text-Teal uppercase tracking-wide font-bold" style={{ animationDuration: "1.2s" }}>
               <a href="#home">Estelle Academy</a>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
               <NavLink key={navLink.id} {...navLink} />
             ))}
           </div>
-          <Button className="border-Gray border-[1.5px] font-bold px-7 mx-3 py-5 rounded-lg text-sm bg-transparent">
+          <Button className="slidedown border-Gray border-[1.5px] font-bold px-7 mx-3 py-5 rounded-lg text-sm bg-transparent" style={{ animationDuration: "1.6s" }}>
             Sign Up
           </Button>
           <div
