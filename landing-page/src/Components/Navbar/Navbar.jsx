@@ -33,7 +33,7 @@ const Navbar = () => {
         >
           <div className="flex items-center gap-4">
             <HiMenuAlt1
-              className="slidedown text-3xl sm:hidden cursor-pointer text-Teal" style={{ animationDuration: ".8s" }}
+              className="slidedown hover:scale-110 text-3xl sm:hidden cursor-pointer text-Teal" style={{ animationDuration: ".8s" }}
               onClick={() => setToggle(true)}
             />
             <div className="slidedown text-xl text-Teal uppercase tracking-wide font-bold" style={{ animationDuration: "1.2s" }}>
