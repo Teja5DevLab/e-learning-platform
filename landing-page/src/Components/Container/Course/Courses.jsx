@@ -61,7 +61,7 @@ const Courses = () => {
       </h2>
       <div className="mt-12">
         <Carousel
-          className="cursor-pointer"
+          className="cursor-pointer arrow"
           responsive={responsive}
           swipeable={true}
           draggable={true}

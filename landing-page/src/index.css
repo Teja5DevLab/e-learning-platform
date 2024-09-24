@@ -16,6 +16,9 @@
 .carousel-item {
   margin-right: 15px;
 }
+.arrow {
+  z-index: 10;
+}
 
 @keyframes slidedown {
   0% {
