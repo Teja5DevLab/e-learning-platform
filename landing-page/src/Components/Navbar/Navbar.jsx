@@ -49,7 +49,7 @@ const Navbar = () => {
             Sign Up
           </Button>
           <div
-            className={`fixed h-full w-64 top-0 left-0 z-50 bg-Teal text-white px-10 shadow-lg transform transition-all duration-500 ease-in-out ${
+            className={`fixed h-lvh w-64 top-0 left-0 z-50 bg-Teal text-white px-10 shadow-lg transform transition-all duration-500 ease-in-out ${
               toggle ? "translate-x-0" : "-translate-x-full"
             }`}
           >
