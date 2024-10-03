@@ -44,7 +44,7 @@ const Contact = () => {
             member of our sales team.
           </p>
           <p className="text-lg font-bold text-gray-700 mb-4">
-            +1 657 829 5060
+            +91 870 777 0188
           </p>
           <p className="text-Teal cursor-pointer">View all global numbers</p>
         </motion.div>

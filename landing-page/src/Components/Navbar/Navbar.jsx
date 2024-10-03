@@ -45,7 +45,7 @@ const Navbar = () => {
               <NavLink key={navLink.id} {...navLink} />
             ))}
           </div>
-          <Button className="slidedown border-Gray border-[1.5px] font-bold px-7 mx-3 py-5 rounded-lg text-sm bg-transparent" style={{ animationDuration: "1.6s" }}>
+          <Button className="slidedown border-Gray border-[1.5px] font-bold px-7 mr-1 py-5 rounded-lg text-sm bg-transparent" style={{ animationDuration: "1.6s" }}>
             Sign Up
           </Button>
           <div

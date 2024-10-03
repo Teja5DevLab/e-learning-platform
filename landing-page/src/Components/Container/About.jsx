@@ -104,7 +104,7 @@ const About = () => {
                 <h4 className="font-bold text-[1.3rem] md:text-[2rem] text-Teal">
                   {inView && (
                     <CountUp
-                      start={1000}
+                      start={1}
                       end={8000}
                       duration={2}
                       separator=","
@@ -117,7 +117,7 @@ const About = () => {
               <div>
                 <h4 className="font-bold text-[1.3rem] md:text-[2rem] text-Teal">
                   {inView && (
-                    <CountUp start={10} end={95} duration={2} suffix="%" />
+                    <CountUp start={1} end={95} duration={2} suffix="%" />
                   )}
                 </h4>
                 <p className="text-Gray text-sm mt-1">Student Satisfaction</p>
@@ -125,7 +125,7 @@ const About = () => {
               <div>
                 <h4 className="font-bold text-[1.3rem] md:text-[2rem] text-Teal">
                   {inView && (
-                    <CountUp start={100} end={300} duration={2} separator="," />
+                    <CountUp start={1} end={300} duration={2} separator="," />
                   )}
                   +
                 </h4>
