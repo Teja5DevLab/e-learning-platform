@@ -70,7 +70,7 @@ const Contact = () => {
           <Button className="bg-Teal text-white font-bold px-7 py-5 mb-4 rounded-lg text-sm">
             Contact Support
           </Button>
-          <p className="text-Teal cursor-pointer">View our Employees</p>
+          <p className="text-Teal cursor-pointer">View our Teachers</p>
         </motion.div>
       </div>
     </div>
